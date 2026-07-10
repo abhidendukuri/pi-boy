@@ -1,0 +1,29 @@
+{
+  "name": "pi-boy",
+  "version": "0.1.0",
+  "description": "Game Boy / Game Boy Color emulator extension for pi",
+  "keywords": ["pi-package", "pi", "gameboy", "emulator", "gb", "gbc"],
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build:native": "cd extensions/gameboy/native/gb-core && npm install && npm run build && cd ../kitty-shm && npm install && npm run build",
+    "build:native:audio": "cd extensions/gameboy/native/gb-core && npm install && npm run build:audio && cd ../kitty-shm && npm install && npm run build",
+    "build:native:debug": "cd extensions/gameboy/native/gb-core && npm install && npm run build:debug && cd ../kitty-shm && npm install && npm run build:debug"
+  },
+  "dependencies": {
+    "pngjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.74.0",
+    "@earendil-works/pi-tui": "^0.74.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.0"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "pi": {
+    "extensions": ["./extensions/gameboy"]
+  }
+}

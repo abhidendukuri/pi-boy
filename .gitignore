@@ -1,0 +1,8 @@
+node_modules/
+target/
+*.node
+*.dylib
+.DS_Store
+*.swp
+*.swo
+__jiticache/
