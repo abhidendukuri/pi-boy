@@ -37,23 +37,15 @@ Vendored with added SRAM access methods (get_sram, set_sram, save_sram_to_file) 
 
 🕹️ Controls
 
-┌──────────┬────────────────────┐
-│ Game Boy │ Keys               │
-├──────────┼────────────────────┤
-│ D-pad    │ Arrow keys or WASD │
-├──────────┼────────────────────┤
-│ A button │ Z                  │
-├──────────┼────────────────────┤
-│ B button │ X                  │
-├──────────┼────────────────────┤
-│ Start    │ Enter or Space     │
-├──────────┼────────────────────┤
-│ Select   │ Tab                │
-├──────────┼────────────────────┤
-│ Detach   │ Ctrl+Q             │
-├──────────┼────────────────────┤
-│ Quit     │ Q                  │
-└──────────┴────────────────────┘
+| Game Boy | Keys               |
+|----------|---------------------|
+| D-pad    | Arrow keys or WASD |
+| A button | Z                  |
+| B button | X                  |
+| Start    | Enter or Space     |
+| Select   | Tab                |
+| Detach   | Ctrl+Q             |
+| Quit     | Q                  |
 
 🎨 Rendering
 
@@ -68,17 +60,12 @@ Vendored with added SRAM access methods (get_sram, set_sram, save_sram_to_file) 
 
 🚀 Commands
 
-┌─────────────────┬─────────────────────────────────────────────┐
-│ Command         │ Description                                 │
-├─────────────────┼─────────────────────────────────────────────┤
-│ /gameboy        │ Pick a ROM or reattach to running session   │
-├─────────────────┼─────────────────────────────────────────────┤
-│ /gameboy <path> │ Load a specific ROM file                    │
-├─────────────────┼─────────────────────────────────────────────┤
-│ /gameboy config │ Quick setup wizard (ROM dir + audio)        │
-├─────────────────┼─────────────────────────────────────────────┤
-│ /gameboy-config │ Toggle audio, quality, and display settings │
-└─────────────────┴─────────────────────────────────────────────┘
+| Command | Description |
+|---------|-------------|
+| `/gameboy` | Pick a ROM or reattach to running session |
+| `/gameboy <path>` | Load a specific ROM file |
+| `/gameboy config` | Quick setup wizard (ROM dir + audio) |
+| `/gameboy-config` | Toggle audio, quality, and display settings |
 
 ⚙️ Configuration
 
